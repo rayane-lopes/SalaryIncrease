@@ -59,7 +59,7 @@ public class Main {
         sc.close();
     }
 
-  //what position it's the id (in the List)?
+    //what position it's the id (in the List)?
     public static Integer position (List<Employee> list, int id){
         for (int i = 0; i<list.size(); i++){
             if (list.get(i).getId() == id){
